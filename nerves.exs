@@ -5,7 +5,7 @@ version =
   |> File.read!
   |> String.trim
 
-pkg = :nerves_system_rpi3
+pkg = :nerves_system_rpi3_with_curl
 
 config pkg, :nerves_env,
   type: :system,
